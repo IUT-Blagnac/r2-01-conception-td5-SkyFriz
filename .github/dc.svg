@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="353px" preserveAspectRatio="none" style="width:541px;height:353px;background:#FFFFFF;" version="1.1" viewBox="0 0 541 353" width="541px" zoomAndPan="magnify"><defs/><g><!--MD5=[a9bf9b4aa29c0366be246ece7a4a7778]
+cluster Chantier--><g id="cluster_Chantier"><rect height="101" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;fill:none;" width="523" x="12" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="69" x="239" y="21.9951">Chantier</text></g><!--MD5=[ce70aa20570e24bf5791c207b1893157]
+cluster Artisant--><g id="cluster_Artisant"><rect height="199" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;fill:none;" width="193" x="12" y="148"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="68" x="74.5" y="162.9951">Artisant</text></g><g id="elem_dateD"><ellipse cx="270.2198" cy="67.244" fill="#F1F1F1" rx="74.2198" ry="17.244" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="215.2198" y="70.9915">Date de début</text></g><g id="elem_dateF"><ellipse cx="444.92" cy="66.984" fill="#F1F1F1" rx="65.42" ry="15.484" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="401.92" y="70.7316">Date de fin</text></g><g id="elem_ad"><ellipse cx="108.1007" cy="67.215" fill="#F1F1F1" rx="52.6007" ry="14.715" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="76.6007" y="70.9626">Adresse</text></g><!--MD5=[3267a2c5795503f9c6982525e478468a]
+entity Salaire_horaire--><g id="elem_Salaire_horaire"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="126" x="55" y="191"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="65" y="213.9951">Salaire_horaire</text></g><!--MD5=[3f7388bbbf89009a2e56644a606190d7]
+entity coordonnées--><g id="elem_coordonnées"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="113" x="61.5" y="287"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="71.5" y="309.9951">coordonnées</text></g><!--MD5=[465a6a83b8133d3d77286eb435160746]
+link dateD to dateF--><g id="link_dateD_dateF"><path d="M344.17,67 C354.12,67 364.07,67 374.021,67 " fill="none" id="dateD-to-dateF" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="379.224,67,370.224,63,374.224,67,370.224,71,379.224,67" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[dfb9699f365709c369e73e1e7e6543e9]
+link Chantier to Artisant--><!--MD5=[37b36e07df2baa01649125f54711387a]
+link Salaire_horaire to coordonnées--><!--MD5=[626075c3b8d4ac56f03000bb6656e754]
+@startuml
+rectangle "Chantier" {
+    usecase dateD as "Date de début"
+    usecase dateF as "Date de fin"
+    usecase ad as "Adresse"
+}
+
+rectangle "Artisant"{
+    rectangle "Salaire_horaire"{
+    }
+    rectangle "coordonnées"{
+    }
+}
+
+
+'Pour aligner les 2 acteurs :
+ dateD->dateF
+ Chantier-[hidden]->Artisant
+ Salaire_horaire-[hidden]->coordonnées
+@enduml
+
+@startuml
+rectangle "Chantier" {
+    usecase dateD as "Date de début"
+    usecase dateF as "Date de fin"
+    usecase ad as "Adresse"
+}
+
+rectangle "Artisant"{
+    rectangle "Salaire_horaire"{
+    }
+    rectangle "coordonnées"{
+    }
+}
+
+
+ dateD->dateF
+ Chantier-[hidden]->Artisant
+ Salaire_horaire-[hidden]->coordonnées
+@enduml
+
+PlantUML version 1.2022.3beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
