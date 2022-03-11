@@ -1,0 +1,23 @@
+@startuml
+
+
+rectangle "Chantier" {
+    usecase dateD as "Date de début"
+    usecase dateF as "Date de fin"
+    usecase ad as "Adresse"
+}
+
+rectangle "Artisant"{
+    rectangle "Salaire_horaire"{
+    }
+    rectangle "coordonnées"{
+    }
+}
+
+
+'Pour aligner les 2 acteurs :
+ dateD->dateF
+ Chantier-[hidden]->Artisant
+ Salaire_horaire-[hidden]->coordonnées
+
+@enduml

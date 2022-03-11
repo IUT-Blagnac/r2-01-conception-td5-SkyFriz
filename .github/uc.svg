@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="327px" preserveAspectRatio="none" style="width:654px;height:327px;background:#FFFFFF;" version="1.1" viewBox="0 0 654 327" width="654px" zoomAndPan="magnify"><defs/><g><!--MD5=[a9bf9b4aa29c0366be246ece7a4a7778]
+cluster Chantier--><g id="cluster_Chantier"><rect height="192.5" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;fill:none;" width="371" x="30.5" y="128.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="69" x="181.5" y="143.4951">Chantier</text></g><!--MD5=[ce70aa20570e24bf5791c207b1893157]
+cluster Artisant--><g id="cluster_Artisant"><rect height="220" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;fill:none;" width="207" x="441.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="68" x="511" y="21.9951">Artisant</text></g><g id="elem_dateD"><ellipse cx="136.7198" cy="280.244" fill="#F1F1F1" rx="74.2198" ry="17.244" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="81.7198" y="283.9915">Date de début</text></g><g id="elem_dateF"><ellipse cx="311.42" cy="279.984" fill="#F1F1F1" rx="65.42" ry="15.484" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="268.42" y="283.7316">Date de fin</text></g><g id="elem_ad"><ellipse cx="136.6007" cy="186.215" fill="#F1F1F1" rx="52.6007" ry="14.715" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="105.1007" y="189.9626">Adresse</text></g><g id="elem_salaire"><ellipse cx="550.3343" cy="186.1669" fill="#F1F1F1" rx="73.8343" ry="17.1669" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="495.8343" y="189.9144">Salaire horaire</text></g><g id="elem_c"><ellipse cx="554.5634" cy="66.4127" fill="#F1F1F1" rx="70.0634" ry="16.4127" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="505.0634" y="70.1602">coordonnées</text></g><!--MD5=[15ee4e7eeb801311198cb886d068a96a]
+entity Artisants--><g id="elem_Artisants"><ellipse cx="38.5" cy="37" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M38.5,45 L38.5,72 M25.5,53 L51.5,53 M38.5,72 L25.5,87 M38.5,72 L51.5,87 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="6" y="101.4951">Artisants</text></g><!--MD5=[465a6a83b8133d3d77286eb435160746]
+link dateD to dateF--><g id="link_dateD_dateF"><path d="M210.67,280 C220.62,280 230.57,280 240.521,280 " fill="none" id="dateD-to-dateF" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="245.724,280,236.724,276,240.724,280,236.724,284,245.724,280" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5e91f7e3a6dc384d7b61a225a3e00494]
+link Artisant to Artisants--><g id="link_Artisant_Artisants"><path d="M440.389,66.5 C439.4178,66.5 438.4466,66.5 437.4754,66.5 C433.5905,66.5 429.7056,66.5 425.8207,66.5 C418.051,66.5 410.2812,66.5 402.5115,66.5 C386.9719,66.5 371.4324,66.5 355.8928,66.5 C324.8137,66.5 293.7346,66.5 262.6554,66.5 C200.4971,66.5 138.3387,66.5 76.1803,66.5 " fill="none" id="Artisant-to-Artisants" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="71.0107,66.5,80.0107,70.5,76.0107,66.5,80.0107,62.5,71.0107,66.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1a507ce7480853058c8268b787d82fc7]
+link Artisants to Chantier--><g id="link_Artisants_Chantier"><path d="M26.5469,104.678 C25.2395,121.621 25.5408,141.3435 27.4508,157.0051 C27.9283,160.9205 28.5063,164.5821 29.1849,167.883 C29.5242,169.5335 29.8886,171.0938 30.2782,172.5505 C30.3269,172.7326 30.376,172.9131 30.4255,173.092 C30.4502,173.1814 30.475,173.2704 30.5,173.359 " fill="none" id="Artisants-to-Chantier" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="30.5,173.359,31.9118,163.6118,29.1452,168.546,24.211,165.7794,30.5,173.359" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1a507ce7480853058c8268b787d82fc7]
+link Artisants to Chantier--><!--MD5=[7087c1667f7b7619473bd0dc85a2be16]
+link c to salaire--><!--MD5=[589098589a50d694bebaaece7fd01c75]
+link ad to dateD--><!--MD5=[3f3d5502cc01be5b24480c6a63e0d716]
+@startuml
+rectangle "Chantier" {
+    usecase dateD as "Date de début"
+    usecase dateF as "Date de fin"
+    usecase ad as "Adresse"
+}
+
+rectangle "Artisant"{
+    usecase salaire as "Salaire horaire"
+    usecase c as "coordonnées"
+}
+
+actor Artisants
+
+'Pour aligner les 2 acteurs :
+ dateD->dateF
+Artisant->Artisants
+Artisants->Chantier
+ Artisants-[hidden]->Chantier
+ c-[hidden]->salaire
+ ad-[hidden]->dateD
+@enduml
+
+@startuml
+rectangle "Chantier" {
+    usecase dateD as "Date de début"
+    usecase dateF as "Date de fin"
+    usecase ad as "Adresse"
+}
+
+rectangle "Artisant"{
+    usecase salaire as "Salaire horaire"
+    usecase c as "coordonnées"
+}
+
+actor Artisants
+
+ dateD->dateF
+Artisant->Artisants
+Artisants->Chantier
+ Artisants-[hidden]->Chantier
+ c-[hidden]->salaire
+ ad-[hidden]->dateD
+@enduml
+
+PlantUML version 1.2022.3beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
